@@ -15,7 +15,7 @@ Now, take a closer look at line 30, which contains - `./nginx.tmpl:/etc/docker-g
 Inside of the nginx-docker-proxy directory, use the following curl command to copy the developer’s sample `nginx.tmpl` file to your VPS.
 
 ```sh
-curl https://raw.githubusercontent.com/jwilder/nginx-docker-proxy/master/nginx.tmpl > nginx.tmpl
+curl https://raw.githubusercontent.com/jwilder/nginx-proxy/master/nginx.tmpl > nginx.tmpl
 ```
 
  You can now run the docker-compose command that will kick this all off.
